@@ -9,7 +9,7 @@ cidr_private_subnet  = ["10.0.3.0/24", "10.0.4.0/24"]
 eu_availability_zone = ["eu-central-1a", "eu-central-1b"]
 
 public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILEQNhRqSYFou3bhJXTlag2MX80MoTq+GbqutxPSlPQR ubuntu@ip-172-31-95-31"
-ec2_ami_id     = "ami-04b4f1a9cf54c11d0"
+ec2_ami_id     = "ami-07eef52105e8a2059"
 
 ec2_user_data_install_apache = ""
 
