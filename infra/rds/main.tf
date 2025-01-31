@@ -28,7 +28,6 @@ resource "aws_db_instance" "default" {
   apply_immediately       = true
   backup_retention_period = 0
   deletion_protection     = false
-  license_model           = "license-included"  # Use license-included model (optional change)
 }
 
 
