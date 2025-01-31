@@ -7,7 +7,7 @@ yes | sudo apt update
 yes | sudo apt install python3 python3-pip
 
 # Clone the project repository
-git clone https://github.com/rahulwagh/python-mysql-db-proj-1.git
+git clone https://github.com/Chethanvr06/python-mysql-db-proj-1-rahul-wagh
 
 # Wait for 20 seconds to ensure everything is set up
 sleep 20
