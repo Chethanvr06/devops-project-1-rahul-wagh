@@ -1,5 +1,3 @@
-#! /bin/bash
-# shellcheck disable=SC2164
 cd /home/ubuntu
 
 # Update the system and install python3, pip3, and python3-venv if not installed
@@ -16,10 +14,13 @@ sleep 20
 cd python-mysql-db-proj-1
 
 # Create a virtual environment in the project directory
-python3 -m venv venv
+sudo python3 -m venv venv
 
 # Activate the virtual environment
 source venv/bin/activate
+
+sudo chown -R $(whoami):$(whoami) /home/ubuntu/python-mysql-db-proj-1-rahul-wagh/venv/
+
 
 # Upgrade pip inside the virtual environment
 pip install --upgrade pip
